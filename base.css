@@ -1,3 +1,4 @@
+
 /* Discord Default Values */
 @import url('https://zuzumi-f.github.io/Discord-11/release/valuesofdiscord.css');
 /* Fluent Icons */
@@ -3421,10 +3422,10 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
 }
 
 /* Just a BG for theme card [by Gibbu] */
-[id="Discord-card"] {
+[id="Discord 11-card"] {
     position: relative;
 }
-[id="Discord-card"]::before {
+[id="Discord 11-card"]::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -3432,9 +3433,9 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     opacity: 0.1;
     pointer-events: none;
 }
-.theme-dark [id="Discord-card"]::before {
+.theme-dark [id="Discord 11-card"]::before {
     background: url(https://github.com/zuzumi-f/Discord-11/blob/main/release/wallpapers/WindowsDark.jpg?raw=true) center/cover;
 }
-.theme-light [id="Discord-card"]::before {
+.theme-light [id="Discord 11-card"]::before {
     background: url(https://github.com/zuzumi-f/Discord-11/blob/main/release/wallpapers/WindowsLight.jpg?raw=true) center/cover;
 }
